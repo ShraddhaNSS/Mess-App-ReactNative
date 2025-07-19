@@ -13,3 +13,4 @@ export default function Index() {
     </View>
   );
 }
+//this is index-page
