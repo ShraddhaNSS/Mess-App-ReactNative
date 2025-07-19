@@ -30,7 +30,7 @@ const messData = [
     rating: '4.7',
     image: require('../assets/images/mess3.webp'),
     description: 'Premium quality meals with variety of options',
-  },
+  }, 
   {
     id: '4',
     name: 'Maharaja Mess',
@@ -74,7 +74,7 @@ export default function MessList() {
           style={styles.bookButton}
           onPress={() => handleBookMess(item.name)}
         >
-          <Text style={styles.bookButtonText}>Book Now</Text>
+          <Text style={styles.bookButtonText} >Book Now</Text>
         </TouchableOpacity>
       </View>
     </View>
